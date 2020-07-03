@@ -21,6 +21,10 @@ Your proxy settings will be applied the next time you run Apt.
 export http_proxy=http://cache-st.ctu.edu.vn:3128
 export https_proxy=http://cache-st.ctu.edu.vn:3128
 ```
+### Git Proxy
+```
+git config --global http.proxy http://cache-st.ctu.edu.vn:3128
+```
 ## Static IP Config
 To configure your system to use static address assignment, create a netplan configuration in the file **/etc/netplan/99_config.yaml**
 ```
