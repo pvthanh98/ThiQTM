@@ -95,3 +95,14 @@ mysql>CREATE USER 'username'@'%' IDENTIFIED BY 'password';
 ```
 mysql>GRANT ALL PRIVILEGES ON test_db. * TO 'username'@'%';
 ```
+## Samba
+### Clear cache
+run cmd as administrator
+```
+net stop workstation /y
+```
+```
+```
+net start workstation /y
+```
+```
