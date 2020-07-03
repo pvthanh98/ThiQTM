@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+}
+table tr td, th {
+    border: 1px solid #d3d3d3;
+    padding: 8px;
+}
+
+
+ul li {
+    display: inline-table;
+    padding: 8px;
+    list-style-type: none;
+    background-color: #e7e5e5;
+}
+
+ul li:hover {
+    background-color: #c5c4c4;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
