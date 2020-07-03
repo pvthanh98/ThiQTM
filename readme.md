@@ -102,7 +102,5 @@ run cmd as administrator
 net stop workstation /y
 ```
 ```
-```
 net start workstation /y
-```
 ```
